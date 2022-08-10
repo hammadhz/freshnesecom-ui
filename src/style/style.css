@@ -814,6 +814,14 @@ video {
   margin-bottom: 21px;
 }
 
+.mr-\[14px\] {
+  margin-right: 14px;
+}
+
+.mr-\[10px\] {
+  margin-right: 10px;
+}
+
 .flex {
   display: flex;
 }
@@ -1621,9 +1629,22 @@ video {
     gap: 2rem;
   }
 
+  .sm\:gap-\[20px\] {
+    gap: 20px;
+  }
+
+  .sm\:gap-\[10px\] {
+    gap: 10px;
+  }
+
   .sm\:py-\[35px\] {
     padding-top: 35px;
     padding-bottom: 35px;
+  }
+
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
   }
 
   .sm\:text-center {
@@ -1660,6 +1681,11 @@ video {
     left: 185px;
   }
 
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .md\:mr-\[20px\] {
     margin-right: 20px;
   }
@@ -1686,6 +1712,14 @@ video {
 
   .md\:ml-\[50px\] {
     margin-left: 50px;
+  }
+
+  .md\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .md\:mr-4 {
+    margin-right: 1rem;
   }
 
   .md\:block {
@@ -1732,6 +1766,10 @@ video {
     justify-content: space-between;
   }
 
+  .md\:justify-around {
+    justify-content: space-around;
+  }
+
   .md\:gap-6 {
     gap: 1.5rem;
   }
@@ -1740,9 +1778,40 @@ video {
     gap: 2rem;
   }
 
+  .md\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-1 {
+    gap: 0.25rem;
+  }
+
+  .md\:gap-\[10px\] {
+    gap: 10px;
+  }
+
+  .md\:gap-x-3 {
+    -moz-column-gap: 0.75rem;
+         column-gap: 0.75rem;
+  }
+
+  .md\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
   .md\:py-\[30px\] {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .md\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .md\:text-\[12px\] {
@@ -1804,6 +1873,10 @@ video {
     margin-bottom: 0px;
   }
 
+  .lg\:mr-0 {
+    margin-right: 0px;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1860,6 +1933,10 @@ video {
     gap: 120px;
   }
 
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
   .lg\:gap-x-12 {
     -moz-column-gap: 3rem;
          column-gap: 3rem;
@@ -1868,6 +1945,11 @@ video {
   .lg\:py-\[20px\] {
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .lg\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .lg\:text-\[15px\] {
