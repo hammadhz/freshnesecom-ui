@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/date.css" />
     <title>Payment</title>
 </head>
 <body>
@@ -111,7 +112,7 @@
           </p>
           <!-- form -->
           <form action="#" method="POST" class="pt-[45px]">
-            <div class="shadow overflow-hidden sm:rounded-md">
+            <div class="overflow-hidden sm:rounded-md">
               <div class="px-4 py-5 bg-white sm:p-6">
   
                 <div class="grid grid-cols-6 gap-6">
@@ -127,7 +128,8 @@
                       name="first-name"
                       id="first-name"
                       autocomplete="given-name"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="First Name"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" 
+                      placeholder="First Name"
                     />
                   </div>
                 <!-- first name -->
@@ -144,7 +146,7 @@
                       name="last-name"
                       id="last-name"
                       autocomplete="family-name"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Last Name"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Last Name"
                     />
                   </div>
            <!-- last name -->
@@ -160,7 +162,7 @@
                       name="email-address"
                       id="email-address"
                       autocomplete="email"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Email address"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Email address"
                     />
                   </div>
               <!-- email address -->
@@ -173,11 +175,11 @@
                       >Phone Number</label
                     >
                     <input
-                      type="text"
+                      type="tel"
                       name="phone-number"
                       id="phone-number"
                       autocomplete="number"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Phone Number"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Phone Number"
                     />
                   </div>
                   <!-- phone number -->
@@ -194,7 +196,7 @@
                       name="Address"
                       id="address"
                       autocomplete="address"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Address"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Address"
                     />
                   </div>
                    <!-- Address -->
@@ -211,7 +213,7 @@
                       name="Town/City"
                       id="Town/City"
                       autocomplete="Town/City"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Town/City"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Town/City"
                     />
                   </div>
                   <!-- Town/city -->
@@ -227,7 +229,7 @@
                       id="country"
                       name="country"
                       autocomplete="country-name"
-                      class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm " 
+                      class="mt-1 block w-full py-2 px-3 border-[1px] border-fifth bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm " 
                     >
                       <option>United States</option>
                       <option>Canada</option>
@@ -248,7 +250,7 @@
                       name="ZIP/Postalcode"
                       id="ZIP/Postalcode"
                       autocomplete="ZIP/Postalcode"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="ZIP/Postalcode"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="ZIP/Postalcode"
                     />
                   </div>
                   <!-- Zip postal code -->
@@ -258,7 +260,7 @@
                     <div class="absolute">
                       <input
                       type="text"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-[230px] shadow-sm sm:text-[12px] placeholder:text-secondary placeholder:text-sm border-2 border-fifth h-[40px] rounded-md pl-7" placeholder="Ship to a different Addrress?"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-[230px] shadow-sm sm:text-[12px] placeholder:text-secondary placeholder:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-7" placeholder="Ship to a different Addrress?"
                     />
                     </div>
                     <div class="relative top-3 ml-3"><input type="checkbox">  </div>
@@ -280,22 +282,22 @@
                     </div>
                 </div>
   
-                <div class=" col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-2 border-solid border-fifth">
+                <div class=" col-span-6 align-center pt-2 w-full h-[40px] px-4 rounded-md  border-[1px] border-solid border-fifth">
                   <div class=" flex justify-between">
                    <div class=" flex">
-                   <input type="checkbox" class=" "><p class=" pl-3 font-semibold text-xs leading-4  font-poppins text-secondary">FedEx</p>
+                   <input type="checkbox" class="" /><p class=" pl-3 font-semibold text-xs leading-4  font-poppins text-secondary">FedEx</p>
                    </div>
                    <div class="flex">
                     <p class=" font-semibold text-xs leading-4  font-poppins text-primary mr-3">+32 USD</p>
                     <p class=" font-semibold text-xs leading-4  font-poppins text-secondary">Additional price</p>
-                      </div>
-                      <div class="flex">
+                    </div>
+                    <div class="flex">
                         <img src="./imgs/FedEx_Express 1.png" class=" w-[38.86px] h-[15.54px]"/>
-                      </div>
+                    </div>
                    </div>
                 </div>
   
-                <div class=" col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-2 border-solid border-fifth">
+                <div class=" col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-[1px] border-solid border-fifth">
                   <div class=" flex justify-between">
                    <div class=" flex">
                    <input type="checkbox" class=" "><p class=" pl-3 font-semibold text-xs leading-4  font-poppins text-secondary">DHL</p>
@@ -323,7 +325,7 @@
                     </div>
                 </div>
   
-                <div class="col-span-6 py-[19px] px-[16px] border-2 border-solid border-fifth w-full  h-[400px] sm:h-[250px] rounded-xl">
+                <div class="col-span-6 py-[19px] px-[16px] border-[1px] border-solid border-fifth w-full  h-[400px] sm:h-[250px] rounded-xl">
                   <div class="flex justify-between mb-[33px]">
                     <div class="flex">
                       <div class=" absolute bg-primary border-2 border-solid border-primary rounded-full w-[20px] h-[20px]"></div>
@@ -343,7 +345,7 @@
                     name="card-number"
                     id="card-number"
                     autocomplete="card-number"
-                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Card Number"
+                    class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Card Number"
                   />
                   </div>
   
@@ -360,7 +362,7 @@
                       name="card-holder"
                       id="card-holder"
                       autocomplete="card-holder"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="Card holder"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="Card holder"
                     />
                   </div>
   
@@ -375,11 +377,11 @@
                       name="Expiration-date"
                       id="expiration-date"
                       autocomplete="expiration-date"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="DD/MM/YY"
-                    />
+                      class="  mt-1 focus:ring-indigo-500 focus:border-indigo-500 text-fourth block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" 
+                      />
                   </div>
   
-                  <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                  <div class="col-span-6 sm:col-span-3 lg:col-span-1">
                     <label
                       for="postal-code"
                       class="block text-sm font-semibold font-poppins text-secondary mt-4 sm:mt-0"
@@ -390,13 +392,13 @@
                       name="cvc"
                       id="cvc"
                       autocomplete="cvc"
-                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-2 border-fifth h-[40px] rounded-md pl-2" placeholder="CVC"
+                      class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-[1px] border-fifth h-[40px] rounded-md pl-2" placeholder="CVC"
                     />
                   </div>
                   </div>
                   </div>
                 </div>
-                <div class=" my-[16px] col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-2 border-solid border-fifth">
+                <div class=" my-[16px] col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-[1px] border-solid border-fifth">
                   <div class=" flex justify-between">
                    <div class=" flex">
                    <input type="checkbox" class=" "><p class=" pl-3 font-semibold text-xs leading-4  font-poppins text-secondary">Paypal</p>
@@ -407,7 +409,7 @@
                       </div>
                    </div>
                 </div>
-                <div class=" col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-2 border-solid border-fifth">
+                <div class=" col-span-6 align-center pt-2 w-full h-[40px] px-4  rounded-md  border-[1px] border-solid border-fifth">
                   <div class=" flex justify-between">
                    <div class=" flex">
                    <input type="checkbox" class=" "><p class=" pl-3 font-semibold text-xs leading-4  font-poppins text-secondary">Bitcoin</p>
@@ -452,19 +454,19 @@
                       </p>
                       <p class="text-center sm:text-left ml-[10px] font-open font-normal leading-[16.34px] text-fourth">step 5 of 5</p>
                     </div>
-                    <div class=" flex items-center border-2 border-solid border-fifth rounded-md mt-[32px] w-full h-[42px]">
+                    <div class=" flex items-center border-[1px] border-solid border-fifth rounded-md mt-[32px] w-full h-[42px]">
                        <input type="checkbox" class="ml-3">
                        <p class=" ml-3 font-open text-[10px] sm:text-xs text-secondary">I agree with sending an Marketing and newsletter emails. No spam,promised</p>
                     </div>
                   
-                    <div class=" flex items-center border-2 border-solid border-fifth rounded-md mt-[16px] w-full h-[42px]">
+                    <div class=" flex items-center border-[1px] border-solid border-fifth rounded-md mt-[16px] w-full h-[42px]">
                        <input type="checkbox" class="ml-3">
                        <p class=" ml-3 font-open text-[10px] sm:text-xs text-secondary">I agree with <a href="#" class=" underline">terms and condition</a> and <a href="#"class=" underline">privacy policy</a></p>
                     </div>
               </div>
               <!-- confirmation -->
               <!-- button -->
-             <button class=" mt-[32px] py-[16.5px] px-[48px] bg-primary border-1 border-solid border-tenth rounded-md text-[15px] font-poppins font-bold text-white">Complete Order</button>
+             <button class=" mt-[32px] py-[16.5px] px-[48px] bg-primary border-2 border-solid border-tenth rounded-md text-[15px] font-poppins font-bold text-back">Complete Order</button>
               <!-- button -->
               <img src="./imgs/Vrstva 302.png" alt="vrstva" class=" mt-[34px]">
               <h6 class=" font-semibold font-poppins text-sm mt-[9.97px]">All your data are safe</h6>
@@ -477,7 +479,7 @@
         </div>
   <!-- left side -->
   <!-- right side -->
-        <div class=" py-[32px] px-[16px] border-none sm:border-2 sm:border-solid border-fifth rounded-md  sm:h-[830px] ">
+        <div class=" py-[32px] px-[16px] border-[1px] sm:border-[1px] sm:border-solid border-fifth rounded-md  sm:h-[830px] ">
         <h1 class=" text-center sm:text-left font-poppins font-semibold text-secondary  text-[22px] ">Order Summary</h1>
       <p class="font-open font-normal text-xs text-fourth">Price can change depending on shipping method and taxes of your state</p>  
       <div class="flex mt-[40px]">
@@ -518,11 +520,11 @@
         <h4 class=" font-poppins font-semibold text-xs sm:text-[18px] text-primary">36.99 USD</h4>
         <p class=" font-poppins font-semibold text-xs text-fourth line-through">48.56 USD</p>    
       </div>
-      <div class=" flex items-center border-2 border-solid border-fifth bg-sixth w-[122px] h-[42px] rounded-xl ml-[137px]">
+      <div class=" flex items-center justify-between border-[1px] border-solid border-fifth bg-sixth w-[122px] h-[42px] rounded-xl ml-[137px] px-[6px] py-[7px]">
         <div class="border-r border-1 border-solid border-fifth">
         <p class="font-poppins font-normal text-[sm] text-fifth mx-1">1pcs</p>
         </div>
-        <p class="ml-1 text-xs font-semibold font-poppins">pcs</p><i class="fa-solid fa-angle-down mx-5"></i>
+        <p class="ml-1 text-xs font-semibold font-poppins">pcs</p><i class="fa-solid fa-angle-down mx-0"></i>
       </div>
       </div>
         </div>
@@ -566,11 +568,11 @@
         <h4 class=" font-poppins font-semibold text-xs sm:text-[18px] text-primary">36.99 USD</h4>
         <p class=" font-poppins font-semibold text-xs text-fourth line-through">48.56 USD</p>    
       </div>
-      <div class=" flex items-center border-2 border-solid border-fifth bg-sixth w-[122px] h-[42px] rounded-xl ml-[137px]">
+      <div class=" flex items-center justify-between border-[1px] border-solid border-fifth bg-sixth w-[122px] h-[42px] rounded-xl ml-[137px] py-[7px] px-[6px]">
         <div class="border-r border-1 border-solid border-fifth">
         <p class="font-poppins font-normal text-[sm] text-fifth mx-1">1pcs</p>
         </div>
-        <p class="ml-1 text-xs font-semibold font-poppins">pcs</p><i class="fa-solid fa-angle-down mx-5"></i>
+        <p class="ml-1 text-xs font-semibold font-poppins">pcs</p><i class="fa-solid fa-angle-down ml-0"></i>
       </div>
       </div>
         </div>
@@ -588,7 +590,7 @@
           <p class=" font-poppins font-semibold text-[18px] text-secondary">shipping</p>
           <p class=" font-poppins font-semibold text-[18px] text-secondary">0 USD</p>
           </div>
-          <div class=" mt-[32px] flex justify-between items-center bg-sixth border-2 border-solid border-fifth w-full h-[42px] rounded-md">
+          <div class=" mt-[32px] flex justify-between items-center bg-sixth border-[1px] border-solid border-fifth w-full h-[42px] rounded-md">
          <p class=" ml-3 font-open font-normal text-sm text-fourth">Apply promo code</p>
          <p class=" mr-3 font-bold font-poppins text-[15px] text-secondary">Apply now</p>
           </div>
