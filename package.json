@@ -72,5 +72,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "1. You just have to clone it.\r 2. Install tailwindcss packages on your local machine.\r 3. Write html pages.\r 4. Best of luck!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hammadhz/freshnesecom-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hammadhz/freshnesecom-ui/issues"
+  },
+  "homepage": "https://github.com/hammadhz/freshnesecom-ui#readme"
 }
