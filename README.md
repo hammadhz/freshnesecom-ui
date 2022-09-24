@@ -1,3 +1,4 @@
+
 # Freshnesecom
 
 UI for Freshnesecom Ecommerce Project using css framework tailwindcss.
@@ -35,3 +36,10 @@ Start the server
 ```bash
   npm run watch
 ```
+
+
+## Tech Stack
+
+**Client:** HTML, TailwindCSS
+
+
