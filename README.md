@@ -1,5 +1,5 @@
 
-# Freshnesecom
+# Freshnesecom-UI
 
 UI for Freshnesecom Ecommerce Project using css framework tailwindcss.
 
